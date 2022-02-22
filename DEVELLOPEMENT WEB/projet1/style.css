@@ -1,0 +1,52 @@
+body
+{
+	background-color: #1d8ab3;
+}
+
+h1
+{
+	text-align: center;
+	font-family: fantasy;
+	font-size: 5em;
+	border: 2px darkred solid;
+	box-shadow: 2px 2px 2px darkred;
+	text-shadow: 2px 2px 2px darkred;
+}
+
+h2
+{
+	text-align: center;
+	font-family: fantasy;
+	font-size: 2.2em;
+	color: darkred;	
+	text-shadow: 1px 1px 1px black;
+}
+
+p
+{
+	text-align: center;
+	font-family: fantasy;
+	font-size: 1.8em;
+	color: darkred;
+	text-shadow: 1px 1px 1px black;
+}
+
+ul
+{
+	text-align: left;
+	font-family: fantasy;
+	font-size: 1.8em;
+	color: darkgreen;
+	text-shadow: 1px 1px 1px black;
+}
+
+.jjb
+{
+	text-align: left;
+	font-family: fantasy;
+	font-size: 1.8em;
+	float: left;
+	color: darkorange;
+	border: 2px darkred solid;
+	text-shadow: 1px 1px 1px black;
+}

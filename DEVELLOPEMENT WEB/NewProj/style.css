@@ -1,0 +1,38 @@
+/* Police à venir */
+
+@font-face {
+    font-family: 'neon_led_lightregular';
+    src: url('fonts/neonledlight-webfont.woff2') format('woff2'),
+         url('fonts/neonledlight-webfont.woff') format('woff'),
+         url('fonts/NEONLEDLight.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Header */ 
+
+header{
+    background-color: lavender;
+    border-radius: 15px;
+    height: 180px;
+    position: relative;
+}
+
+#bloc_header{
+    font-family: neon_led_lightregular, serif;
+    text-align: center;
+    padding-top: 30px;
+    color: red ;
+    text-shadow: 3px 3px 3px blue;
+}
+
+header img{c 
+    border-radius: 15px;
+    width: 150px;
+    height: auto;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    box-shadow: 3px 3px 3px blue;
+}

@@ -1,0 +1,30 @@
+#conteneur
+{
+	display: flex;
+	justify-content: space-around;
+	border: 2px solid blueviolet;
+	align-items: center;
+	align-content: stretch;
+	height: 200px;
+}
+
+.element
+{
+	width: 150px;
+	height: 150px;
+}
+
+.element:nth-child(1)
+{
+	background-color: darkred;
+}
+
+.element:nth-child(2)
+{
+	background-color: greenyellow;
+}
+
+.element:nth-child(3)
+{
+	background-color: darkorange;
+}

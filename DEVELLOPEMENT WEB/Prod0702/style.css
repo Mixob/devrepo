@@ -1,0 +1,52 @@
+/* Police à mettre */ 
+
+
+/* body */
+
+body{
+    background-color: rgb(170, 194, 238);
+    max-width: 1024px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* header */ 
+
+header{
+    text-align: center;
+    border: 2px black solid;
+    border-radius: 20px;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+header h1{
+    font-size: 2.5em;
+    text-shadow: red 1px 1px 1px;
+    margin-top: 10px;
+    margin-bottom: 0%;
+}
+
+/* section */ 
+
+.lesgardes h2{
+    text-align: center;
+}
+.lesgardes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    text-align: center;
+    align-items: center;
+    
+    
+
+}
+        
+

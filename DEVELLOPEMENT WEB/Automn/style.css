@@ -1,0 +1,135 @@
+/* Police à rajouées */
+
+@font-face {
+    font-family: 'honeyfle';
+    src: url('fonts/honeyfle.woff2') format('woff2'),
+         url('fonts/honeyfle.woff') format('woff'),
+         url('fonts/honeyfle.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Body */
+
+body{
+    margin-left: 45px;
+    margin-right: 45px;
+    background-color: #f2efe9;
+}
+
+/* Header */ 
+
+header{
+    background-image: url('images/fond.jpg') ;
+    background-position: inherit;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    min-height: 350px;
+    font-family: honeyfle;
+    border: solid 10px #7b1b1e;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px #ae7f31;
+
+}
+
+#bloc_header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 350px;
+    align-items: center;
+}
+
+header h1{
+    font-size: 120px;
+    color: #241b18;
+    padding: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 2px #f2efe9;
+}
+
+header h2{
+    font-size: 50px;
+    color: #241b18;
+    padding: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 2px #f2efe9;
+}
+
+/* Menu */ 
+
+#menu{
+    justify-content: center;
+    font-family: honeyfle;
+    font-size: 40px;
+    margin-top: 18px;
+    margin-bottom: 10px; 
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.element:hover{
+    background-color: #ae7f31;
+    border-radius: 15px;
+}
+a{
+    color: #241b18;
+    text-shadow: 1px 1px 1px #ae7f31;
+}
+
+a:link{
+    text-decoration: none;
+    color: #241b18;
+}
+
+/* Corps */
+
+#articlecorps{
+    font-family: honeyfle, serif;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #7b1b1e;
+    text-shadow: 3px 3px 3px #ae7f31;
+}
+
+article h1{
+    font-size: 70px;
+    
+}
+
+article p{
+    font-size: 60px;
+    
+}
+
+
+
+/* media queries */ 
+
+@media screen and (max-width: 800px) {
+    
+body{
+    
+    background-color: black;
+}
+}
+
